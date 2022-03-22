@@ -32,6 +32,7 @@ main {
   max-width: 600px;
   border-radius: 12px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 .main-container .box {
   padding: 30px;
