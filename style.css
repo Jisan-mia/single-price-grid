@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+  margin: 20px 25px 0 25px;
+}
+
+main {
+  height: calc(100vh - 50px);
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+.main-container {
+  background-color: #fff;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.main-container .box {
+  padding: 30px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  gap: .6rem;
+}
+
+.top-section h1 {
+  color: hsl(179, 62%, 43%);
+  font-weight: 700;
+  font-size: 1.7rem;
+  line-height: 2rem;
+}
+
+.top-section h2 {
+  font-weight: 700;
+  color: hsl(71, 73%, 54%);
+  font-size: 1.2rem;
+}
+
+.top-section p {
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.bottom-section {
+  display: flex;
+
+}
+
+.bottom-section .left {
+  flex-basis: 50%;
+  background-color: hsl(179, 62%, 43%);
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.bottom-section .left .signup-btn {
+  display: block;
+  padding: 0.75rem 0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 4px;
+  box-shadow: 0 12px 18px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.bottom-section .left h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 8px;
+}
+.bottom-section .left h1 small {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(204, 43%, 93%);
+}
+
+.bottom-section .left p {
+  color: hsl(204, 43%, 93%);
+  font-weight: 400;
+  font-size: 15px;
+  
+}
+
+.bottom-section .right {
+  flex-basis: 50%;
+  background-color: #4ABEBD;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+}
+
+
+
+.bottom-section .left h3, .bottom-section .right h3{
+  color: White;
+  font-weight: 700;
+  font: 0.9rem;
+}
+
+
+.bottom-section .right ul {
+  list-style-type: none;
+  display:flex;
+  flex-direction: column;
+  gap: 0.18rem;
+}
+
+.bottom-section .right ul li{
+  font-weight: 400;
+  font-size: 0.79rem;
+  color: hsl(204, 43%, 93%);
+}
+
+@media (max-width: 500px) {
+  main {
+    height: 100%;
+  }
+  .bottom-section {
+    flex-direction: column;
+  }
+  .main-container .box {
+    padding: 20px;
+  }
+
+  .top-section h1 {
+    font-size: 1.2rem;
+  }
+
+  .top-section h2 {
+    font-size: 1rem;
+  }
+  
+  .top-section p {
+    font-size: 0.9rem;
+  }
+  
+
+    
+  .bottom-section .left h1 {
+    font-size: 1.25rem;
+  }
+  .bottom-section .left p {
+    font-size: 14px;
+  }
+
+
+  .bottom-section .left h3, .bottom-section .right h3{
+    font: 0.82rem;
+  }
+
+
+  .bottom-section .right ul li{
+    font-size: 0.73rem;
+  }
+
+}
