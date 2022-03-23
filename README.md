@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Jisan-mia/single-price-grid)
-- Live Site URL: [Live](https://your-live-site-url.com)
+- Live Site URL: [Live](https://jisan-mia.github.io/single-price-grid/)
 
 ## My process
 
