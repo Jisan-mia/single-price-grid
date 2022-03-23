@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Jisan-mia/single-price-grid)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/Jisan-mia/single-price-grid)
+- Live Site URL: [Live](https://your-live-site-url.com)
 
 ## My process
 
